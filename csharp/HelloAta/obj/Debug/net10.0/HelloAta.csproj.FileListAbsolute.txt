@@ -1,0 +1,14 @@
+/Users/ata/Projects/ata-learning/csharp/HelloAta/bin/Debug/net10.0/HelloAta
+/Users/ata/Projects/ata-learning/csharp/HelloAta/bin/Debug/net10.0/HelloAta.deps.json
+/Users/ata/Projects/ata-learning/csharp/HelloAta/bin/Debug/net10.0/HelloAta.runtimeconfig.json
+/Users/ata/Projects/ata-learning/csharp/HelloAta/bin/Debug/net10.0/HelloAta.dll
+/Users/ata/Projects/ata-learning/csharp/HelloAta/bin/Debug/net10.0/HelloAta.pdb
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/HelloAta.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/HelloAta.AssemblyInfoInputs.cache
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/HelloAta.AssemblyInfo.cs
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/HelloAta.csproj.CoreCompileInputs.cache
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/HelloAta.dll
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/refint/HelloAta.dll
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/HelloAta.pdb
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/HelloAta.genruntimeconfig.cache
+/Users/ata/Projects/ata-learning/csharp/HelloAta/obj/Debug/net10.0/ref/HelloAta.dll
