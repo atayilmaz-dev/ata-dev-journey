@@ -1,0 +1,48 @@
+﻿// Bu dosya geçici olarak devre dışı
+return;
+Console.WriteLine("=== BASKETBOL MAÇ SKORU HESAPLAYICI ===");
+
+Console.Write("1. Takım adı: ");
+string takim1 = Console.ReadLine();
+
+Console.Write("Kaç 2'lik attı? ");
+bool ikilikt1 = int.TryParse(Console.ReadLine(), out int ikilik1);
+Console.Write("Kaç 3'lük attı? ");
+bool uclukt1 = int.TryParse(Console.ReadLine(), out int uclu1);
+Console.Write("Kaç serbest atış attı? ");
+bool serbestt1 = int.TryParse(Console.ReadLine(), out int serbest1);
+
+int hesaplama1 = 0;
+if (ikilikt1 && uclukt1 && serbestt1)
+    hesaplama1 = (ikilik1 * 2) + (uclu1 * 3) + (serbest1 * 1);
+else
+    Console.WriteLine("Yanlış girdiniz");
+
+Console.WriteLine($"{takim1} Skoru: {hesaplama1}");
+
+Console.Write("2. Takım adı: ");
+string takim2 = Console.ReadLine();
+
+Console.Write("Kaç 2'lik attı? ");
+bool ikilikt2 = int.TryParse(Console.ReadLine(), out int ikilik2);
+Console.Write("Kaç 3'lük attı? ");
+bool uclukt2 = int.TryParse(Console.ReadLine(), out int uclu2);
+Console.Write("Kaç serbest atış attı? ");
+bool serbestt2 = int.TryParse(Console.ReadLine(), out int serbest2);
+
+int hesaplama2 = 0;
+if (ikilikt2 && uclukt2 && serbestt2)
+    hesaplama2 = (ikilik2 * 2) + (uclu2 * 3) + (serbest2 * 1);
+else
+    Console.WriteLine("Yanlış girdiniz");
+
+Console.WriteLine($"{takim2} Skoru: {hesaplama2}");
+
+if (hesaplama1 > hesaplama2)
+    Console.WriteLine($"{takim1} Kazandı!");
+else if (hesaplama2 > hesaplama1)
+    Console.WriteLine($"{takim2} Kazandı!");
+else
+    Console.WriteLine("Berabere!");
+
+Console.ReadLine();
